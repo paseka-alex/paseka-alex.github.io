@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>api</title>
+    <meta charset="UTF-8" />
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <nav>{{>menu}}</nav>
+    <div class="container">
+        <form action="/api" method="get" class="container">
+          <label for="keyword">Input a keyword</label>
+          <input type="text" name="keyword" id="keyword" />
+          <button class="bttn" id="button">submit</button>
+        </form>
+    </div>
+  </body>
+</html>
